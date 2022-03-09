@@ -8,12 +8,10 @@
 } 
 
 *{
-    /*isso?, issso.*/ 
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-font-family:'Open Sans', sans-serif ;
+    font-family:'Open Sans', sans-serif ;
 }
 h1, h2, h3, h4, h5, h6, {
     margin: 0;
@@ -60,7 +58,7 @@ nav a, nav a:hover {
     padding: 40px 0;
 }
 .dsmovie-card {
-    width: 360px;
+    width: 100%;
    
 }
 
@@ -70,11 +68,13 @@ nav a, nav a:hover {
 }
 .dsmovie-card-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
 
 }
 
@@ -82,6 +82,7 @@ nav a, nav a:hover {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 .dsmovie-btm, .dsmovie-btm:hover {
    width: 180px; 
